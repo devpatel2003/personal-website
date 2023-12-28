@@ -47,7 +47,7 @@ let resumeData = {
       {
         "name":"Breast Cancer Prediction Model",
         "description":"",  
-        "imgurl":"images/portfolio/BCcover.avif",
+        "imgurl":"images/portfolio/BCcover.png",
         "modalType": "modalType1"
       },
       {
