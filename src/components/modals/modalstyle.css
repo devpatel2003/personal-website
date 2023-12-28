@@ -1,0 +1,39 @@
+.modal {
+    background: white;
+    
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 4% 10%;
+    border-radius: .8rem;
+  
+    color: var(--light);
+   
+    box-shadow: .4rem .4rem 2.4rem .2rem hsla(236, 50%, 50%, 0.3);
+    position: relative;
+  
+    overflow: hidden;
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .modal-header button {
+    float: right;
+  }
+
+  .modal-body{
+    padding: 20px;
+    color: rgb(26, 18, 18);
+    font-family: 'opensans-regular', sans-serif;
+  }
+
+  .close {
+    color: #ffffff;
+    background-color: #313131; 
+    opacity: 1;
+}
+
+    
