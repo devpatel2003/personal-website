@@ -20,7 +20,7 @@ const Modal3 = ({ show, onClose, children }) => {
               <p>The goal of my University Rover team is to design and build a remotely operated vehicle that is capable of navigating rugged landscapes. This endeavor involves several key objectives, including the transportation of various items, the manipulation of buttons and switches, and the critical task of detecting signs of life within soil samples. </p>
             </div>
             <div className="img">
-              <img src="images/portfolio/WeMars.JPG" width="300" height="180"></img>
+              <img src="images/portfolio/WeMars.jpg" width="300" height="180"></img>
             </div>
           </div>
          <br></br>
