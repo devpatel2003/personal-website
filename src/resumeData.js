@@ -51,16 +51,16 @@ let resumeData = {
         "modalType": "modalType1"
       },
       {
-        "name":"Stock Price Prediction Model",
-        "description":"",
-        "imgurl":"images/portfolio/StockCover.jpg",
-        "modalType": "modalType2"
-      },
-      {
         "name":"WeMARS Rover Team",
         "description":"",
         "imgurl":"images/portfolio/RoverCover.jpg",
         "modalType": "modalType3"
+      },
+      {
+        "name":"Stock Price Prediction Model",
+        "description":"",
+        "imgurl":"images/portfolio/StockCover.jpg",
+        "modalType": "modalType2"
       },
       {
         "name":"8bit-Computer",
