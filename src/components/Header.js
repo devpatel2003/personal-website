@@ -21,7 +21,7 @@ export default class Header extends Component {
 
          <div className="row banner">
             <div className="banner-text">
-               <h1 className="responsive-headline">I am (Dev)eloper Patel</h1>
+               <h1 className="responsive-headline">I am Dev(eloper) Patel</h1>
                <h2 style={{color:'#fff', fontFamily:'sans-serif '}}>Solving the Unsolvable</h2>
                <hr/>
                <ul className="social">
