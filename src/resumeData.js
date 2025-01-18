@@ -33,7 +33,21 @@ let resumeData = {
       },
      
     ],
-    "work":[
+   "work":[
+      {
+        "CompanyName":"RBC , Wealth Management",
+        "specialization":"Machine Learning Intern", 
+        "MonthOfLeaving":"May - Aug",
+        "YearOfLeaving":"2024",
+        "Achievements":`• Developed a proof-of-concept NLP tool designed to generate summarization reports of meeting notes for Investment Advisors, aimed at capturing key insights from the past 30 days and identifying notes beyond that window relevant to current needs.\n
+          
+        • Utilized Polars, NumPy and Matplotlib for data manipulation and visualization, while leveraging ML libraries like scikit-learn, PyTorch, TensorFlow, and AWS SageMaker for model training and deployment.\n
+        • Pre-processed unstructured text data, improving dataset quality and reducing noise through the implementation of multiple tested solutions for cleaning and structuring mixed-quality notes.\n
+        • Created a pair-wise comparison model to identify similar sentences but found it computationally expensive; instead, implemented PCA and clustering techniques to group similar sentences efficiently.\n
+        • Developed a custom BERTopic model on a 50GB domain-specific dataset to categorize topics, enabling filtering of unnecessary information, and allowing for more insight into the dataset.\n
+        • Experimented with fine-tuning pre-trained summarization models from Hugging Face for potential optimization.\n
+        • Presented a comprehensive report detailing dataset challenges, various ML filtering solutions, and a strategic plan for integrating the summarization tool with RBC’s data management system.`
+      },
       {
         "CompanyName":"CIBC",
         "specialization":"Co-op Applications Developer", 
@@ -45,23 +59,25 @@ let resumeData = {
     
     "portfolio":[
       {
-        "name":"Breast Cancer Prediction Model",
-        "description":"",  
-        "imgurl":"images/portfolio/BCcover.png",
-        "modalType": "modalType1"
-      },
-      {
         "name":"WeMARS Rover Team",
         "description":"",
         "imgurl":"images/portfolio/RoverCover.jpg",
         "modalType": "modalType3"
       },
       {
-        "name":"Stock Price Prediction Model",
+        "name":"Recession Prediction Model",
         "description":"",
         "imgurl":"images/portfolio/StockCover.jpg",
         "modalType": "modalType2"
       },
+      {
+        "name":"Breast Cancer Prediction Model",
+        "description":"",  
+        "imgurl":"images/portfolio/BCcover.png",
+        "modalType": "modalType1"
+      },
+    
+    
       {
         "name":"8bit-Computer",
         "description":"",
