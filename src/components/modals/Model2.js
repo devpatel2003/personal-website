@@ -13,8 +13,8 @@ const Modal2 = ({ show, onClose, children }) => {
           <button onClick={onClose} className="close">&times;</button>
         </div>
         <div className="modal-body">
-          <h3>Stock Price Prediction Using LSTM</h3>
-          <p>Coming Soon</p>
+          <h3>Recession Prediction Using LSTM</h3>
+          <p>Group Project to Predict Recessions in US, 4 months in advanced.</p>
           <div style={{ marginTop: '20px' }}>
             <h4>Project Report</h4>
             <embed
@@ -24,6 +24,8 @@ const Modal2 = ({ show, onClose, children }) => {
               height="500px"
             />
           </div>
+          <a href='https://github.com/ChrisLato/AISE-4010-Project-US-Economic-Recession-Predictor/tree/dev'>Source Code</a>
+
         </div>
       </div>
     </div>
