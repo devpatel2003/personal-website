@@ -15,6 +15,15 @@ const Modal2 = ({ show, onClose, children }) => {
         <div className="modal-body">
           <h3>Stock Price Prediction Using LSTM</h3>
           <p>Coming Soon</p>
+          <div style={{ marginTop: '20px' }}>
+            <h4>Project Report</h4>
+            <embed
+              src="images/portfolio/Report.pdf"
+              type="application/pdf"
+              width="100%"
+              height="500px"
+            />
+          </div>
         </div>
       </div>
     </div>
