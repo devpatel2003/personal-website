@@ -26,6 +26,7 @@ const Modal2 = ({ show, onClose, children }) => {
               width="100%"
               height="1000px"
               style={{ border: 'none' }}
+              title="Report PDF"
               />
         
 
