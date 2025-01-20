@@ -13,7 +13,7 @@ const Modal2 = ({ show, onClose, children }) => {
           <button onClick={onClose} className="close">&times;</button>
         </div>
         <div className="modal-body">
-          <h3>Recession Prediction Using LSTMM</h3>
+          <h3>Recession Prediction Using LSTM</h3>
           <p>Group Project to Predict Recessions in US, 4 months in advanced.</p>
           <p>This school project allowed me to learn more about what it takes to evaluate Economic indicators using ML. The datasets used in this project includes U.S Unemployment Rates, GDP, Inflation rates and Dates of US Recessions.
             The goal of this project is to predict future reccessions, to do so we needed to break up this problem into 2 parts. The first step was to train a model to predict future values of our indicators.
