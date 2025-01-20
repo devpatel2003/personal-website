@@ -76,14 +76,21 @@ let resumeData = {
         "imgurl":"images/portfolio/BCcover.png",
         "modalType": "modalType1"
       },
-    
-    
+  
       {
         "name":"8bit-Computer",
         "description":"",
         "imgurl":"images/portfolio/8bitCover.png",
         "modalType": "modalType4"
-      }
+      },
+
+      {
+        "name":"Atari RL Agent",
+        "description":"",
+        "imgurl":"images/portfolio/Galaxian.png",
+        "modalType": "modalType5"
+      },
+      
     ],
     
   }
