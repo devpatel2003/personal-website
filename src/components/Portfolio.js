@@ -3,6 +3,7 @@ import Modal1 from './modals/Model1.js';
 import Modal2 from './modals/Model2.js';
 import Modal3 from './modals/Model3.js';
 import Modal4 from './modals/Model4.js';
+import Modal5 from './modals/Model5.js';
 
 
 
@@ -82,6 +83,13 @@ export default class Porfolio extends Component {
                 
               </Modal4>
             )}
+
+      {showModal && modalType === 'modalType5' && selectedItem && (
+              <Modal5 show={showModal} onClose={() => this.toggleModal(null)}>
+                
+              </Modal5>
+            )}
+      
   </section>
         );
 
