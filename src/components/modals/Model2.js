@@ -21,12 +21,11 @@ const Modal2 = ({ show, onClose, children }) => {
             <p>Our model was trained from 1967-2000, and when tested it was able to predict a reccession in 2001, 2007, 2021</p>
           <div style={{ marginTop: '20px' }}>
             <h4>Project Report</h4>
-            <iframe
+            <embed
               src = "images/portfolio/Report.pdf"
+              type = "application/pdf"
               width="100%"
-              height="1000px"
-              style={{ border: 'none' }}
-              title="Report PDF"
+              height="700px"
               />
         
 
