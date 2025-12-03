@@ -24,7 +24,7 @@ const Modal6 = ({ show, onClose, children }) => {
               loop
               style={{ border: 'none', maxWidth: '800px', display: 'block', margin: '0 auto' }}
             >
-              <source src="/images/portfolio/obs_avoid_480p.mp4" type="video/mp4" />
+              <source src="https://github.com/devpatel2003/personal-website/releases/download/video-assests/obs_avoid_480p.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
