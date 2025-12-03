@@ -14,7 +14,22 @@ const Modal5 = ({ show, onClose, children }) => {
         </div>
         <div className="modal-body">
           <h3>Teaching an RL model to play Galaxian</h3>
-          <p> In this project, I trained an RL model to play the game Galaxian. The model was trained using the OpenAI Gym environment and the PyTorch library. To give the agent the ability to see, a CNN use used to capture complex patterns, and to allow the agent to get a sense of movement over time, 4 frames are passed at once into the CNN to help build temporal dependencies.
+
+          <div style={{ marginTop: '20px', marginBottom: '30px' }}>
+            <video
+              width="100%"
+              controls
+              autoPlay
+              muted
+              loop
+              style={{ border: 'none', maxWidth: '800px', display: 'block', margin: '0 auto' }}
+            >
+              <source src="https://github.com/user-attachments/assets/d5a608c6-9724-46de-862b-a817debdb6aa" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+
+          <p> This was my first reinforcement learning project in which I trained an RL model to play the game Galaxian. The model was trained using the OpenAI Gym environment and the PyTorch library. To give the agent the ability to see, a CNN use used to capture complex patterns, and to allow the agent to get a sense of movement over time, 4 frames are passed at once into the CNN to help build temporal dependencies.
             The output of the CNN is then passed into a DQN layer to help the agent make decisions.
             The model was trained over 10 hours with adjustments to the rewards and penalties in between each hour to help the agent learn various actions. For example, the reward for shooting an alien would be 10 points while the penalty to losing a life would be -100.
             At one point the model learnt to stay in the corner to avoid incoming attacks. To enforce the model to move around, a penalty was added for staying in the corner for too long.

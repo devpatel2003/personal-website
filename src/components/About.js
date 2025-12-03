@@ -15,7 +15,22 @@ export default class About extends Component {
             <div className="nine columns main-col">
 
                <h2>About Me</h2>
-                  <p>Hello! I'm Dev, a Mechatronics and Artificial Intelligence Systems Engineer at The University of Western Ontario. With a talent for problem solving and a passion for technology, I am always looking for new ways to innovate and improve the world around me. <br/><br/>I am interested in the fields of software development, data science, and machine learning. In addition to software development, I am also keenly focused on designing, prototyping, and testing various robotic systems, leveraging my expertise to integrate intelligent software with mechanical functionality. I am also open to other opportunities that will allow me to apply my skills and learn new ones. <br/><br/>In my free time, I enjoy golf, skiing, movies and solving puzzles.
+                  <p>
+                     Hi! I'm Dev. I’m studying Mechatronics and Artificial Intelligence Systems Engineering at the Univeristy of 
+                     Western Ontario, and I’ve always been drawn to building things that move, react, and learn.
+                     I love the hands-on side of engineering just as much as the software side. Whether it’s designing a part in CAD, prototyping 
+                     a gearbox, or testing code to bring a robot to life. <br></br><br></br>
+
+                     A lot of my work focuses on robotics, reinforcement learning, and intelligent control, but most of my ideas start in the mechanical design phase. 
+                     I like figuring out how parts fit together, how forces move through a system, and sizing motors or gear ratios based on the loads I expect. 
+                     Whether it’s a robotic arm or a mobile rover, I enjoy turning a rough concept into hardware that’s actually strong, smooth, and reliable.<br></br><br></br>
+
+                     On the software side, I’ve been exploring RL-based navigation, VLA robotic arm control, and simulation workflows using ROS 2 + Gazebo, 
+                     PyBullet, and Isaac Sim. What motivates me most is the challenge of connecting all the pieces (mechanical, electrical, and software)
+                     into a system that actually works in the real world.<br></br><br></br>
+
+                     Outside of school and projects, you'll find me improving my homelab, 3D printing random ideas, indoor rock climbing, 
+                     camping, playing golf, or enjoying some downtime with video games or a good movie.
                   </p>
 
 
