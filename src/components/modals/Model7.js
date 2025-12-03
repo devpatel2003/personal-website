@@ -42,10 +42,10 @@ const Modal7 = ({ show, onClose, children }) => {
           <ul>
             <li><strong>Storage:</strong> Self-hosted NAS 4TB RAID1 configuration with remote access via Cloudflare Tunnels</li>
             <li><strong>Automation:</strong> n8n workflows for smart home task automation and AI integrations</li>
-            <li><strong>Network:</strong> Pi-hole for DNS filtering and network-wide ad blocking</li>
+            <li><strong>Network:</strong> Pi-hole for DNS filtering and network-wide ad blocking, 8 port network switch providing ethernet to my devices</li>
             <li><strong>AI Processing:</strong> NVIDIA Jetson for wake-word detection and speech processing</li>
             <li><strong>LLM Inference:</strong> Local desktop workstation for running large language models on ollama</li>
-            <li><strong>Integrations:</strong> MCP (Model Context Protocol) for Spotify, google calendar, and other services</li>
+            <li><strong>Integrations:</strong> Proxmox for creating multiple VM's/containers, MCP (Model Context Protocol) for Spotify, google calendar, and other services</li>
             <li><strong>Custom Hardware:</strong> 3D-printed 10" server rack with integrated display dashboard</li>
           </ul>
 
