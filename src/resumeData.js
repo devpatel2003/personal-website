@@ -35,8 +35,18 @@ let resumeData = {
     ],
    "work":[
       {
+        "CompanyName":"Western University, Dr. Pooja Viswanathan",
+        "specialization":"Undergraduate Research Student",
+        "MonthOfLeaving":"May - Aug",
+        "YearOfLeaving":"2025",
+        "Achievements":`• Developed and tested an autonomous wheelchair docking system, training Reinforcement Learning policies for safe approach and alignment using real wheelchair kinematics, sensor constraints, and collision-safety limits.\n
+        • Trained autonomous navigation agents in PyBullet using PPO, SAC, and TD3, incorporating IMU and LiDAR observations with realistic hardware effects (wheel slip, actuator lag, LiDAR sampling characteristics) and domain randomization.\n
+        • Explored a memory-aware exploration system in Isaac Sim/Lab using a Transformer-based architecture and Recurrent PPO, enabling the robot to navigate toward unknown goal locations using camera input (YOLO object detection), avoid backtracking, and build internal scene memory.\n
+        • Deployed trained policies onto a ROS2 robotic car, writing ROS2 nodes to interface with onboard sensors and publish motion commands for real-world testing.`
+      },
+      {
         "CompanyName":"RBC , Wealth Management",
-        "specialization":"Machine Learning Intern", 
+        "specialization":"Machine Learning Intern",
         "MonthOfLeaving":"May - Aug",
         "YearOfLeaving":"2024",
         "Achievements":`• Developed a proof-of-concept NLP tool designed to generate summarization reports of meeting notes for Investment Advisors, aimed at capturing key insights from the past 30 days and identifying notes beyond that window relevant to current needs.\n
@@ -58,6 +68,18 @@ let resumeData = {
     ],
     
     "portfolio":[
+      {
+        "name":"Homelab: Self-Hosted Infrastructure & Local AI",
+        "description":"",
+        "imgurl":"images/portfolio/homelab.jpg",
+        "modalType": "modalType7"
+      },
+      {
+        "name":"Autonomous Wheelchair Navigation Using RL",
+        "description":"",
+        "imgurl":"images/portfolio/RLSchem.png",
+        "modalType": "modalType6"
+      },
       {
         "name":"WeMARS Rover Team",
         "description":"",

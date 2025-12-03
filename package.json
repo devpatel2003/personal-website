@@ -52,10 +52,10 @@
   "deploy": "gh-pages -d build",
   
     
-  "start": "react-scripts start",
+  "start": "NODE_OPTIONS='--no-experimental-webstorage' react-scripts start",
   
     
-  "build": "react-scripts build",
+  "build": "NODE_OPTIONS='--no-experimental-webstorage' react-scripts build",
   
     
   "test": "react-scripts test",
