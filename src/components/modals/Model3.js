@@ -1,7 +1,35 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './modalstyle.css';
 
 const Modal3 = ({ show, onClose, children }) => {
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  const images = [
+    '/images/wemars/20240912_123417.JPG',
+    '/images/wemars/20250814_1199 - 20250814_1203.JPEG',
+    '/images/wemars/image_2.PNG',
+    '/images/wemars/image.PNG',
+    '/images/wemars/IMG_2819.JPG',
+    '/images/wemars/IMG_2843.JPG',
+    '/images/wemars/IMG_3006.JPG',
+    '/images/wemars/IMG_3008.JPG',
+    '/images/wemars/IMG_3420.PNG',
+    '/images/wemars/IMG_5126.PNG',
+    '/images/wemars/IMG_5127.PNG'
+  ];
+
+  const nextImage = () => {
+    setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
+  };
+
+  const prevImage = () => {
+    setCurrentImageIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length);
+  };
+
+  const goToImage = (index) => {
+    setCurrentImageIndex(index);
+  };
+
   if (!show) {
     return null;
   }
@@ -13,16 +41,33 @@ const Modal3 = ({ show, onClose, children }) => {
           <button onClick={onClose} className="close">&times;</button>
         </div>
         <div className="modal-body">
+          <h3>WeMars Rover Team</h3>
 
-          <div className="container">
-            <div className="text">
-              <h3>WeMars Rover Team</h3>
-              <p>As President, I lead a team of 70 members across 5 sub-teams in the development of a Mars Rover to compete at the Canadian International Rover Competition. With the help of my sub team leads, our goal is to design and build a remotely operated vehicle that is capable of navigating rugged landscapes. This endeavor involves several key objectives, including the transportation of various items, the manipulation of buttons and switches, and the critical task of detecting signs of life within soil samples. </p>
+          {/* Image Carousel */}
+          <div className="carousel-container">
+            <div className="carousel-wrapper">
+              <button className="carousel-btn prev" onClick={prevImage}>❮</button>
+              <div className="carousel-image-container">
+                <img
+                  src={images[currentImageIndex]}
+                  alt={`WeMARS Rover ${currentImageIndex + 1}`}
+                  className="carousel-image"
+                />
+              </div>
+              <button className="carousel-btn next" onClick={nextImage}>❯</button>
             </div>
-            <div className="img">
-              <img src="images/portfolio/WeMars.jpg" width="300" height="180"></img>
+            <div className="carousel-dots">
+              {images.map((_, index) => (
+                <span
+                  key={index}
+                  className={`dot ${index === currentImageIndex ? 'active' : ''}`}
+                  onClick={() => goToImage(index)}
+                ></span>
+              ))}
             </div>
           </div>
+
+          <p>As President, I lead a team of 70 members across 5 sub-teams in the development of a Mars Rover to compete at the Canadian International Rover Competition. With the help of my sub team leads, our goal is to design and build a remotely operated vehicle that is capable of navigating rugged landscapes. This endeavor involves several key objectives, including the transportation of various items, the manipulation of buttons and switches, and the critical task of detecting signs of life within soil samples.</p>
          <br></br>
 
           <h5>Software Projects</h5>
