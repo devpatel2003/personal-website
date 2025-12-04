@@ -5,17 +5,17 @@ const Modal3 = ({ show, onClose, children }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const images = [
-    '/images/wemars/20240912_123417.JPG',
-    '/images/wemars/20250814_1199 - 20250814_1203.JPEG',
-    '/images/wemars/image_2.PNG',
-    '/images/wemars/image.PNG',
-    '/images/wemars/IMG_2819.JPG',
-    '/images/wemars/IMG_2843.JPG',
-    '/images/wemars/IMG_3006.JPG',
-    '/images/wemars/IMG_3008.JPG',
-    '/images/wemars/IMG_3420.PNG',
-    '/images/wemars/IMG_5126.PNG',
-    '/images/wemars/IMG_5127.PNG'
+    '/images/wemars/20240912_123417.jpg',
+    '/images/wemars/20250814_1199-20250814_1203.jpeg',
+    '/images/wemars/image_2.png',
+    '/images/wemars/image.png',
+    '/images/wemars/IMG_2819.jpg',
+    '/images/wemars/IMG_2843.jpg',
+    '/images/wemars/IMG_3006.jpg',
+    '/images/wemars/IMG_3008.jpg',
+    '/images/wemars/IMG_3420.png',
+    '/images/wemars/IMG_5126.png',
+    '/images/wemars/IMG_5127.png'
   ];
 
   const nextImage = () => {
